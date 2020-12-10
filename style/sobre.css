@@ -107,8 +107,8 @@ footer{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding:10px;
     text-decoration: none;
-    padding-bottom: 15px;
 }
 
 #contato h2 {
@@ -119,6 +119,20 @@ footer{
     display:inline;
     flex-direction:column;
     align-items: center;
+}
+#contato ul{
+    padding-inline-start: 0;
+}
+#contato ul li{
+    list-style: none;
+}
+#contato ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#contato ul li a:hover{
+    color: #9c27b0;
 }
 
 @media screen and (min-width: 768px) {
@@ -150,25 +164,15 @@ footer{
         margin: 0 auto;
         text-align: center;
         font-size: 20px;
-        text-decoration: none;
-        list-style-type: none;
 
     }
-    #contato div ul{
-        text-decoration: none;
-        list-style-type: none;
-        display: inline-block;
-        padding: 2px 10px;
-    }
     #contato div ul li{
-        text-decoration: none;
-        list-style-type: none;
+        list-style: none;
         display: inline-block;
         padding: 2px 10px;
     }
     #contato div ul li a{
         text-decoration: none;
-        list-style-type: none;
         color: black;
         font-weight: bold;
     }
